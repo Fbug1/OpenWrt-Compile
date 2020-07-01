@@ -396,10 +396,10 @@
   src="https://avatars2.githubusercontent.com/u/59206446?s=60&amp;v=4"
   class="avatar avatar-user " />
 
-      <span class="feature-preview-indicator js-feature-preview-indicator" style="top: 10px;" hidden></span>
+      <span class="feature-preview-indicator js-feature-preview-indicator" style="top:10px;" hidden></span>
     <span class="dropdown-caret"></span>
   </summary>
-  <details-menu class="dropdown-menu dropdown-menu-sw mt-n2" style="width: 180px" >
+  <details-menu class="dropdown-menu dropdown-menu-sw mt-n2" style="width:180px" >
     <div class="header-nav-current-user css-truncate"><a role="menuitem" class="no-underline user-profile-link px-3 pt-2 pb-2 mb-n2 mt-n1 d-block" href="/Fbug1" data-ga-click="Header, go to profile, text:Signed in as">Signed in as <strong class="css-truncate-target">Fbug1</strong></a></div>
     <div role="none" class="dropdown-divider"></div>
 
@@ -419,7 +419,7 @@
         <div class="
           
            user-status-message-wrapper f6 min-width-0"
-           style="line-height: 20px;" >
+           style="line-height:20px;" >
           <div class="css-truncate css-truncate-target width-fit text-gray-dark text-left">
               <span class="text-gray">Set status</span>
           </div>
@@ -439,7 +439,7 @@
         <div class="px-3 py-2 text-gray-dark">
           <div class="js-characters-remaining-container position-relative mt-2">
             <div class="input-group d-table form-group my-0 js-user-status-form-group">
-              <span class="input-group-button d-table-cell v-align-middle" style="width: 1%">
+              <span class="input-group-button d-table-cell v-align-middle" style="width:1%">
                 <button type="button" aria-label="Choose an emoji" class="btn-outline btn js-toggle-user-status-emoji-picker btn-open-emoji-picker p-0">
                   <span class="js-user-status-original-emoji" hidden></span>
                   <span class="js-user-status-custom-emoji"></span>
@@ -448,7 +448,7 @@
                   </span>
                 </button>
               </span>
-              <text-expander keys=": @" data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
+              <text-expander keys=":@" data-mention-url="/autocomplete/user-suggestions" data-emoji-url="/autocomplete/emoji">
                 <input
                   type="text"
                   autocomplete="off"
@@ -463,12 +463,12 @@
               </text-expander>
               <div class="error">Could not update your status, please try again.</div>
             </div>
-            <div style="margin-left: 53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
+            <div style="margin-left:53px" class="my-1 text-small label-characters-remaining js-characters-remaining" data-suffix="remaining" hidden>
               80 remaining
             </div>
           </div>
           <include-fragment class="js-user-status-emoji-picker" data-url="/users/status/emoji"></include-fragment>
-          <div class="overflow-auto ml-n3 mr-n3 px-3 border-bottom" style="max-height: 33vh">
+          <div class="overflow-auto ml-n3 mr-n3 px-3 border-bottom" style="max-height:33vh">
             <div class="user-status-suggestions js-user-status-suggestions collapsed overflow-hidden">
               <h4 class="f6 text-normal my-3">Suggestions:</h4>
               <div class="mx-3 mt-2 clearfix">
@@ -477,7 +477,7 @@
                         <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
                           <g-emoji alias="palm_tree" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f334.png">🌴</g-emoji>
                         </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left:1px solid transparent">
                           On vacation
                         </div>
                       </button>
@@ -485,7 +485,7 @@
                         <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
                           <g-emoji alias="face_with_thermometer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f912.png">🤒</g-emoji>
                         </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left:1px solid transparent">
                           Out sick
                         </div>
                       </button>
@@ -495,7 +495,7 @@
                         <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
                           <g-emoji alias="house" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3e0.png">🏠</g-emoji>
                         </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left:1px solid transparent">
                           Working from home
                         </div>
                       </button>
@@ -503,7 +503,7 @@
                         <div class="emoji-status-width mr-2 v-align-middle js-predefined-user-status-emoji">
                           <g-emoji alias="dart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3af.png">🎯</g-emoji>
                         </div>
-                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left: 1px solid transparent">
+                        <div class="d-flex flex-items-center no-underline js-predefined-user-status-message ws-normal text-left" style="border-left:1px solid transparent">
                           Focusing
                         </div>
                       </button>
@@ -536,7 +536,7 @@
       <div class="dropdown-caret"></div>
     </summary>
 
-    <ul class="dropdown-menu dropdown-menu-se pl-0 overflow-auto" style="width: 220px; max-height: 15.5em">
+    <ul class="dropdown-menu dropdown-menu-se pl-0 overflow-auto" style="width:220px; max-height:15.5em">
       <li>
         <button type="button" class="btn-link dropdown-item js-user-status-expire-button ws-normal" title="Never">
           <span class="d-inline-block text-bold mb-1">Never</span>
@@ -719,7 +719,7 @@
 
       </div>
 
-      <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+      <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding:2px 0;">
 
   <li>
         <form data-remote="true" class="d-flex js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="RCBEi8q7B/Fy3Hs1nBlFLz67CT4xOypk3E0yI/mPjGkPPUjh7l3InJSnOd0tgy+l2DHL8kBe1VyZxBROZhudXQ==" />      <input type="hidden" name="repository_id" value="258696314">
@@ -733,7 +733,7 @@
           <span class="dropdown-caret d-inline-block d-md-none"></span>
 </summary>        <details-menu
           class="select-menu-modal position-absolute mt-5"
-          style="z-index: 99;">
+          style="z-index:99;">
           <div class="select-menu-header">
             <span class="select-menu-title">Notifications</span>
           </div>
@@ -949,7 +949,7 @@
 
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/GiriNeko/Actions-OpenWrt/blob/c2f5095cb3ffa6705a36fb6d738afd538655e899/.github/workflows/ac1200-build-openwrt.yml">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:f0bc086bda08ea3413b7e843fddeddca -->
+    <!-- blob contrib key:blob_contributors:v22:f0bc086bda08ea3413b7e843fddeddca -->
     
 
     <div class="d-flex flex-items-center flex-shrink-0 pb-3 flex-wrap flex-justify-between flex-md-justify-start">
@@ -1121,7 +1121,7 @@
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">name</span>: <span class="pl-s">Build OpenWrt For AC1200</span></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-ent">name</span>:<span class="pl-s">Build OpenWrt For AC1200</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
@@ -1142,7 +1142,7 @@
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">types</span>: <span class="pl-s">published</span></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">types</span>:<span class="pl-s">published</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
@@ -1170,7 +1170,7 @@
       </tr>
       <tr>
         <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span>    - cron: 0 8 * * 5</span></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-c"><span class="pl-c">#</span>    - cron:0 8 * * 5</span></td>
       </tr>
       <tr>
         <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
@@ -1178,7 +1178,7 @@
       </tr>
       <tr>
         <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">types</span>: <span class="pl-s">started</span></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">types</span>:<span class="pl-s">started</span></td>
       </tr>
       <tr>
         <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
@@ -1191,51 +1191,51 @@
       </tr>
       <tr>
         <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="LC26" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">REPO_URL</span>: <span class="pl-s">https://github.com/coolsnowwolf/lede</span></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">REPO_URL</span>:<span class="pl-s">https://github.com/coolsnowwolf/lede</span></td>
       </tr>
       <tr>
         <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="LC27" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">REPO_BRANCH</span>: <span class="pl-s">master</span></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">REPO_BRANCH</span>:<span class="pl-s">master</span></td>
       </tr>
       <tr>
         <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="LC28" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">FEEDS_CONF</span>: <span class="pl-s">feeds.conf.default</span></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">FEEDS_CONF</span>:<span class="pl-s">feeds.conf.default</span></td>
       </tr>
       <tr>
         <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="LC29" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">CONFIG_FILE</span>: <span class="pl-s">ac1200.config</span></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">CONFIG_FILE</span>:<span class="pl-s">ac1200.config</span></td>
       </tr>
       <tr>
         <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="LC30" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">DIY_P1_SH</span>: <span class="pl-s">diy-feeds.sh</span></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">DIY_P1_SH</span>:<span class="pl-s">diy-feeds.sh</span></td>
       </tr>
       <tr>
         <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="LC31" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">DIY_P2_SH</span>: <span class="pl-s">diy-other.sh</span></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">DIY_P2_SH</span>:<span class="pl-s">diy-other.sh</span></td>
       </tr>
       <tr>
         <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="LC32" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">SSH_ACTIONS</span>: <span class="pl-c1">true</span></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">SSH_ACTIONS</span>:<span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="LC33" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_BIN_DIR</span>: <span class="pl-c1">true</span></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_BIN_DIR</span>:<span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="LC34" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_FIRMWARE</span>: <span class="pl-c1">true</span></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_FIRMWARE</span>:<span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="LC35" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_COWTRANSFER</span>: <span class="pl-c1">true</span></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_COWTRANSFER</span>:<span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="LC36" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_WETRANSFER</span>: <span class="pl-c1">true</span></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">UPLOAD_WETRANSFER</span>:<span class="pl-c1">true</span></td>
       </tr>
       <tr>
         <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="LC37" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">TZ</span>: <span class="pl-s">Asia/Shanghai</span></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">  <span class="pl-ent">TZ</span>:<span class="pl-s">Asia/Shanghai</span></td>
       </tr>
       <tr>
         <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
@@ -1252,11 +1252,11 @@
       </tr>
       <tr>
         <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="LC41" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">runs-on</span>: <span class="pl-s">ubuntu-latest</span></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">runs-on</span>:<span class="pl-s">ubuntu-latest</span></td>
       </tr>
       <tr>
         <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="LC42" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">if</span>: <span class="pl-s">github.event.repository.owner.id == github.event.sender.id</span></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">if</span>:<span class="pl-s">github.event.repository.owner.id == github.event.sender.id</span></td>
       </tr>
       <tr>
         <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
@@ -1269,11 +1269,11 @@
       </tr>
       <tr>
         <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="LC45" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Checkout</span></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Checkout</span></td>
       </tr>
       <tr>
         <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="LC46" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>: <span class="pl-s">actions/checkout@master</span></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>:<span class="pl-s">actions/checkout@master</span></td>
       </tr>
       <tr>
         <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
@@ -1282,7 +1282,7 @@
       </tr>
       <tr>
         <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="LC48" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Initialization environment</span></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Initialization environment</span></td>
       </tr>
       <tr>
         <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
@@ -1290,11 +1290,11 @@
       </tr>
       <tr>
         <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">DEBIAN_FRONTEND</span>: <span class="pl-s">noninteractive</span></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">DEBIAN_FRONTEND</span>:<span class="pl-s">noninteractive</span></td>
       </tr>
       <tr>
         <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="LC51" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
@@ -1338,11 +1338,11 @@
       </tr>
       <tr>
         <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">Clone source code</span></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>:<span class="pl-s">Clone source code</span></td>
       </tr>
       <tr>
         <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="LC63" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt</span></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt</span></td>
       </tr>
       <tr>
         <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
@@ -1351,11 +1351,11 @@
       </tr>
       <tr>
         <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="LC65" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Load custom feeds</span></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Load custom feeds</span></td>
       </tr>
       <tr>
         <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="LC66" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
@@ -1379,11 +1379,11 @@
       </tr>
       <tr>
         <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
-        <td id="LC72" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">Update feeds</span></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>:<span class="pl-s">Update feeds</span></td>
       </tr>
       <tr>
         <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
-        <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">cd openwrt &amp;&amp; ./scripts/feeds update -a</span></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">cd openwrt &amp;&amp; ./scripts/feeds update -a</span></td>
       </tr>
       <tr>
         <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
@@ -1392,11 +1392,11 @@
       </tr>
       <tr>
         <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
-        <td id="LC75" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Install feeds</span></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Install feeds</span></td>
       </tr>
       <tr>
         <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
-        <td id="LC76" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">cd openwrt &amp;&amp; ./scripts/feeds install -a</span></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">cd openwrt &amp;&amp; ./scripts/feeds install -a</span></td>
       </tr>
       <tr>
         <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
@@ -1405,11 +1405,11 @@
       </tr>
       <tr>
         <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
-        <td id="LC78" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Load custom configuration</span></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Load custom configuration</span></td>
       </tr>
       <tr>
         <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
-        <td id="LC79" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
@@ -1437,15 +1437,15 @@
       </tr>
       <tr>
         <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
-        <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">SSH connection to Actions</span></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>:<span class="pl-s">SSH connection to Actions</span></td>
       </tr>
       <tr>
         <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
-        <td id="LC87" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>: <span class="pl-s">P3TERX/debugger-action@master</span></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>:<span class="pl-s">P3TERX/debugger-action@master</span></td>
       </tr>
       <tr>
         <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
-        <td id="LC88" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>: <span class="pl-s">env.SSH_ACTIONS == &#39;true&#39; || contains(github.event.action, &#39;ssh&#39;)</span></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>:<span class="pl-s">env.SSH_ACTIONS == &#39;true&#39; || contains(github.event.action, &#39;ssh&#39;)</span></td>
       </tr>
       <tr>
         <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
@@ -1454,15 +1454,15 @@
       </tr>
       <tr>
         <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
-        <td id="LC90" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Download package</span></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Download package</span></td>
       </tr>
       <tr>
         <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
-        <td id="LC91" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">id</span>: <span class="pl-s">package</span></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">id</span>:<span class="pl-s">package</span></td>
       </tr>
       <tr>
         <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
-        <td id="LC92" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
@@ -1490,15 +1490,15 @@
       </tr>
       <tr>
         <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
-        <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">Compile the firmware</span></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>:<span class="pl-s">Compile the firmware</span></td>
       </tr>
       <tr>
         <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
-        <td id="LC100" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">id</span>: <span class="pl-s">compile</span></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">id</span>:<span class="pl-s">compile</span></td>
       </tr>
       <tr>
         <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
-        <td id="LC101" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
@@ -1522,15 +1522,15 @@
       </tr>
       <tr>
         <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
-        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">Upload bin directory</span></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>:<span class="pl-s">Upload bin directory</span></td>
       </tr>
       <tr>
         <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
-        <td id="LC108" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>: <span class="pl-s">actions/upload-artifact@master</span></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>:<span class="pl-s">actions/upload-artifact@master</span></td>
       </tr>
       <tr>
         <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
-        <td id="LC109" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>: <span class="pl-s">steps.compile.outputs.status == &#39;success&#39; &amp;&amp; env.UPLOAD_BIN_DIR == &#39;true&#39;</span></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>:<span class="pl-s">steps.compile.outputs.status == &#39;success&#39; &amp;&amp; env.UPLOAD_BIN_DIR == &#39;true&#39;</span></td>
       </tr>
       <tr>
         <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
@@ -1538,11 +1538,11 @@
       </tr>
       <tr>
         <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
-        <td id="LC111" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">name</span>: <span class="pl-s">OpenWrt_bin</span></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">name</span>:<span class="pl-s">OpenWrt_bin</span></td>
       </tr>
       <tr>
         <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
-        <td id="LC112" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">path</span>: <span class="pl-s">openwrt/bin</span></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">path</span>:<span class="pl-s">openwrt/bin</span></td>
       </tr>
       <tr>
         <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
@@ -1551,19 +1551,19 @@
       </tr>
       <tr>
         <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
-        <td id="LC114" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Organize files</span></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Organize files</span></td>
       </tr>
       <tr>
         <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
-        <td id="LC115" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">id</span>: <span class="pl-s">organize</span></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">id</span>:<span class="pl-s">organize</span></td>
       </tr>
       <tr>
         <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
-        <td id="LC116" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>: <span class="pl-s">env.UPLOAD_FIRMWARE == &#39;true&#39; &amp;&amp; !cancelled()</span></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>:<span class="pl-s">env.UPLOAD_FIRMWARE == &#39;true&#39; &amp;&amp; !cancelled()</span></td>
       </tr>
       <tr>
         <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
-        <td id="LC117" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
@@ -1587,15 +1587,15 @@
       </tr>
       <tr>
         <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
-        <td id="LC123" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">Upload firmware directory</span></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>:<span class="pl-s">Upload firmware directory</span></td>
       </tr>
       <tr>
         <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
-        <td id="LC124" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>: <span class="pl-s">actions/upload-artifact@master</span></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">uses</span>:<span class="pl-s">actions/upload-artifact@master</span></td>
       </tr>
       <tr>
         <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
-        <td id="LC125" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>: <span class="pl-s">steps.organize.outputs.status == &#39;success&#39; &amp;&amp; !cancelled()</span></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>:<span class="pl-s">steps.organize.outputs.status == &#39;success&#39; &amp;&amp; !cancelled()</span></td>
       </tr>
       <tr>
         <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
@@ -1603,11 +1603,11 @@
       </tr>
       <tr>
         <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
-        <td id="LC127" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">name</span>: <span class="pl-s">OpenWrt_firmware</span></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">name</span>:<span class="pl-s">OpenWrt_firmware</span></td>
       </tr>
       <tr>
         <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
-        <td id="LC128" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">path</span>: <span class="pl-s">${{ env.FIRMWARE }}</span></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">path</span>:<span class="pl-s">${{ env.FIRMWARE }}</span></td>
       </tr>
       <tr>
         <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
@@ -1616,15 +1616,15 @@
       </tr>
       <tr>
         <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
-        <td id="LC130" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>: <span class="pl-s">Upload firmware to cowtransfer</span></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">    - <span class="pl-ent">name</span>:<span class="pl-s">Upload firmware to cowtransfer</span></td>
       </tr>
       <tr>
         <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
-        <td id="LC131" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>: <span class="pl-s">steps.organize.outputs.status == &#39;success&#39; &amp;&amp; env.UPLOAD_COWTRANSFER == &#39;true&#39; &amp;&amp; !cancelled()</span></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>:<span class="pl-s">steps.organize.outputs.status == &#39;success&#39; &amp;&amp; env.UPLOAD_COWTRANSFER == &#39;true&#39; &amp;&amp; !cancelled()</span></td>
       </tr>
       <tr>
         <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
-        <td id="LC132" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
@@ -1644,15 +1644,15 @@
       </tr>
       <tr>
         <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
-        <td id="LC137" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>: <span class="pl-s">Upload firmware to WeTransfer</span></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line"><span class="pl-s"></span>    - <span class="pl-ent">name</span>:<span class="pl-s">Upload firmware to WeTransfer</span></td>
       </tr>
       <tr>
         <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
-        <td id="LC138" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>: <span class="pl-s">steps.organize.outputs.status == &#39;success&#39; &amp;&amp; env.UPLOAD_WETRANSFER == &#39;true&#39; &amp;&amp; !cancelled()</span></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">if</span>:<span class="pl-s">steps.organize.outputs.status == &#39;success&#39; &amp;&amp; env.UPLOAD_WETRANSFER == &#39;true&#39; &amp;&amp; !cancelled()</span></td>
       </tr>
       <tr>
         <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
-        <td id="LC139" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>: <span class="pl-s">|</span></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">      <span class="pl-ent">run</span>:<span class="pl-s">|</span></td>
       </tr>
       <tr>
         <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
@@ -1788,7 +1788,7 @@
   </details>
 </template>
 
-  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover js-hovercard-content position-absolute" style="display:none; outline:none;" tabindex="0">
   <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
   </div>
 </div>
